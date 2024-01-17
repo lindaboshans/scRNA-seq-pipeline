@@ -9,9 +9,9 @@ This is the basic workflow, with each step in separate scripts:
 3. [Integration](Integration/) contains integration methods outside of seurat, such as CSS. 
 4. [Gruffi_ribo_removal](gruffi_ribo_removal.R) contains the code to use the Gruffi package in order to remove stressed cells based on expression of key stress genes.
 5. [Mrtree](mrtree.R) was used to determine the optimal number of clusters per sample.
-6. The contents of [cell annotation](Cell_Annotation/) contain all the types of annotation packages tested, some of which are cell marker based, and others which compare to gene expression of similar cell transcriptomes.
-7. [Cell trajectory and pseudotime analysis](Cell Trajcetory and Pseudotime Analyses/) 
-8. [Cell Trajectory and pseudotime analysis](Cell Trajectory and Pseudotime Analyses/) to determine the differentiation timeline of our cells.
-9. [RNA velocity](Cell Trajcetory and Pseudotime Analyses/) 
+6. The contents of [cell annotation](scRNA-seq-pipeline/Cell_Annotation/) contain all the types of annotation packages tested, some of which are cell marker based, and others which compare to gene expression of similar cell transcriptomes.
+7. [Cell trajectory and pseudotime analysis](scRNA-seq-pipeline/Cell Trajcetory and Pseudotime Analyses/) 
+8. [Cell Trajectory and pseudotime analysis](scRNA-seq-pipeline/Cell Trajectory and Pseudotime Analyses/) to determine the differentiation timeline of our cells.
+9. [RNA velocity](scRNA-seq-pipeline/Cell Trajcetory and Pseudotime Analyses/all timepoints post CC regressed CSS integration RNA velocity scvelo.ipynb) 
 10. [SCENIC](SCENIC.R) to identify key transcription factors involved in the differentiation process and their target genes.
-11. [Brain Region Similarity Analyses](Fetal Brain Region Similarity/) to compare our cells to age-matched fetal cells during development. 
+11. [Brain Region Similarity Analyses](scRNA-seq-pipeline/Fetal Brain Region Similarity/) to compare our cells to age-matched fetal cells during development. 
