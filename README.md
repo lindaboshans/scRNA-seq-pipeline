@@ -5,9 +5,11 @@ This repository contains a series of R scripts and Jupyter Notebooks for analyzi
 This is the basic workflow, with each step in separate scripts:
 
 Cellranger was performed with the following code:
-``` cellranger count --id="AD3" --transcriptome=/mnt/users/linda/references/refdata-gex-GRCh38-and-mm10-2020-A/ \
+```
+cellranger count --id="AD3" --transcriptome=/mnt/users/linda/references/refdata-gex-GRCh38-and-mm10-2020-A/ \
 --fastqs=/mnt/users/linda/Ruiqi_10x_Feb2024/ \
 --sample="AD3" --localcores=18
+```
 
 1. [Seurat](Seurat_dualSmad_AD_from_10x_processing.R)  R script contain code for starting from 10x filtered_feature_bc_matrix, creating seurat object, cell and mito filtering, and pre-processing steps.
 2. [Seurat_analysis](Seurat_newer.R) contains key features of seurat, such as label transfer methods, integration, cell cycle regression, etc.
