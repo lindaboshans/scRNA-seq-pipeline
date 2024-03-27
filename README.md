@@ -20,4 +20,4 @@ cellranger count --id="AD3" --transcriptome=/mnt/users/linda/references/refdata-
 7. [Cell Trajectory and pseudotime analysis](Cell%20Trajectory%20and%20Pseudotime%20Analyses/) to determine the differentiation timeline of our cells.
 8. [RNA velocity](Cell%20Trajectory%20and%20Pseudotime%20Analyses/all%20timepoints%20post%20CC%20regressed%20CSS%20integration%20RNA%20velocity%20scvelo.ipynb) 
 9. [SCENIC](SCENIC.R) to identify key transcription factors involved in the differentiation process and their target genes.
-10. [Brain Region Similarity Analyses](Fetal%20Brain%20Region%20Similarity/) to compare our cells to age-matched fetal cells during development. 
+10. [Brain Region Similarity Analyses](Fetal%20Brain%20Region%20Similarity/) to compare our cells to age-matched fetal cells during development. Created some [functions](Fetal%20Brain%20Region%20Similarity/Badhuri%20fetal%20brain%20integration.R) to automate the processing of the reference data 
